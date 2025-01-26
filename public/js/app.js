@@ -132,8 +132,8 @@ const generateQR = () => {
         const outputDiv = document.getElementById('qr-output');
         outputDiv.innerHTML = '';
 
-        // Use Firebase hosting URL
-        const socialPageUrl = 'https://portfolio-3d01f.web.app/social.html';
+        // Use the new project URL (replace with your actual project ID)
+        const socialPageUrl = 'https://qr-social-links.web.app/social.html';
 
         // Generate QR Code
         new QRCode(outputDiv, {
