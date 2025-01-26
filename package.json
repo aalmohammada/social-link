@@ -1,0 +1,14 @@
+{
+  "name": "qr-social-links",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "scripts": {
+    "start": "serve public"
+  }
+}
